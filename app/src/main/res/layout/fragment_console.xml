@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_content"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#56ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:transcriptMode="alwaysScroll"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="16dp"
+            android:stackFromBottom="true"
+            android:listSelector="@android:color/transparent"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@android:color/black"/>
+
+        <LinearLayout android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/voice_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="6dp"
+                android:longClickable="true"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/button_mic"
+                android:background="@android:color/transparent"/>
+
+            <EditText android:inputType="textMultiLine|textNoSuggestions"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:id="@+id/editText"
+                android:background="@drawable/border"
+                android:textColor="@android:color/black"
+                android:cursorVisible="true"
+                android:layout_margin="2dp"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/send_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="6dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:src="@drawable/button_send"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

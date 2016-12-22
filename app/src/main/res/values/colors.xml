@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#ff2316ff</color>
+    <color name="green">#ff1bad26</color>
+    <color name="light_green">#ff90ff00</color>
+    <color name="green_transparent_bg">#3b89ff00</color>
+    <color name="light_transparent_bg">#30ffffff</color>
+    <color name="dark_transparent_bg">#9d000000</color>
+    <color name="red_transparent_bg">#96ff0000</color>
+    <color name="blue_transparent_bg">#90007bff</color>
+    <color name="blue_grid">#640051ff</color>
+    <color name="red_grid">#64ff000e</color>
+    <color name="orange_grid">#64ff8400</color>
+    <color name="green_grid">#6400ff26</color>
+    <color name="pink_grid">#64ff008f</color>
+    <color name="purple_grid">#648500ff</color>
+    <drawable name="button_pressed">@color/blue_transparent_bg</drawable>
+    <drawable name="button_focused">@color/red_transparent_bg</drawable>
+    <drawable name="button_up_dark">@color/dark_transparent_bg</drawable>
+    <drawable name="button_up_gray">#91484848</drawable>
+    <drawable name="button_up_light">@color/light_transparent_bg</drawable>
+    <drawable name="button_down">@drawable/btn_down_gradient</drawable>
+    <!--drawable name="button_down">#99ff862e</drawable>-->
+</resources>

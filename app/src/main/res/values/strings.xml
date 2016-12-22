@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sweet Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clearlog">Clear log</string>
+    <string name="action_clearalert">Delete alerts</string>
+    <string name="action_bind">Add a device</string>
+    <string name="action_test">Test</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_tts_on">Speech On</string>
+    <string name="action_tts_off">Speech Off</string>
+
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="showpw">Show Password</string>
+    <string name="id">Gateway ID:</string>
+    <string name="device_num">connected devices</string>
+    <string name="button1">SIGN IN</string>
+    <string name="success">Connection Established</string>
+    <string name="fail">Connection Failed!</string>
+    <string name="wrong">Unable to connect</string>
+    <string name="status">STATUS</string>
+    <string name="home">Home</string>
+    <string name="devices">CONTROL</string>
+    <string name="gui">System</string>
+    <string name="lock">Security</string>>
+    <string name="webview">Web</string>
+    <string name="console">Console</string>
+    <string name="alerts">Alerts</string>
+    <string name="account">ACCOUNT</string>
+    <string name="logout">LOG OUT</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="back">Back</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="timer_hint">Press the <B>LEARN</B> button</string>
+    <string name="abort">Abort</string>
+    <string name="nada">No device found</string>
+    <string name="retry">Retry</string>
+    <string name="selected_singular">1 device selected</string>
+    <string name="selected_plural"> devices selected</string>
+    <string name="name">Name:</string>
+    <string name="logs">Alerts:</string>
+    <string name="clear_title">Clear alerts</string>
+    <string name="confirm_msg">Erase all alert messages on this device?</string>
+
+    <string name="list">REFRESH</string>
+    <string name="remove">Remove device</string>
+    <string name="erase">Erase alerts</string>
+    <string name="discard">Remove</string>
+    <string name="save">SAVE</string>
+    <string name="clear">CLEAR</string>
+
+    <string name="usb">USB</string>
+    <string name="app_title">USB Serial Example</string>
+    <string name="refreshing">Refreshing...</string>
+
+    <string name="smoke_triggered">Detected!</string>
+    <string name="attached">Attached</string>
+    <string name="detached">Detached!</string>
+    <string name="arm">Armed</string>
+    <string name="parm1">Partial 1 Armed</string>
+    <string name="parm2">Partial 2 Armed</string>
+    <string name="disarm">Disarmed</string>
+    <string name="temp">Temperature: </string>
+    <string name="humidity">Humidity: </string>
+
+    <string-array name="weekdays">
+        <item></item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+</resources>
